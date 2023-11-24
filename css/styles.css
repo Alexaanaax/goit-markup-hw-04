@@ -90,7 +90,7 @@ align-items: center;
     width: calc((100% - 40 * 2) / 3);
     position: relative;
     overflow: hidden;
-    transition-property: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-link {
     display:block;
@@ -103,7 +103,7 @@ align-items: center;
     /* 150% */
     letter-spacing: 0.02em;
     position: relative;
-    transition-property: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .color-active {
     color: #404BBF;
@@ -122,15 +122,14 @@ align-items: center;
     width: 100%;
     border-radius: 2px;
     transform: translateY(100%);
-    transition-property: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-link-item:hover .overlay-nav {
     transform: translateY(0%); 
 }
 .menu-link:hover,
 .menu-link:focus {
-    color: #404BBF;
-  
+    color: #404BBF; 
 }
 .menu-link::after {
     content: "";
@@ -140,7 +139,7 @@ align-items: center;
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
-    transition-property: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
 .contacts {
@@ -164,7 +163,7 @@ align-items: center;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  transition-property: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-link:hover,
 .address-link:focus {
@@ -213,7 +212,7 @@ max-width: 1440px;
     /* 150% */
     letter-spacing: 0.04em;
     border: none;
-    transition-property: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-formalise:hover,
 .button-formalise:focus {
@@ -372,7 +371,7 @@ background-color:#404BBF;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    transition-property: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-text-title {
     color: #2E2F42;
@@ -395,7 +394,7 @@ background-color:#404BBF;
 .portfolio-list {
     width: calc((100% - 48px) / 3);
     border-top: none;
-    transition-property: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-list:hover {
@@ -424,7 +423,7 @@ overflow: hidden;
     height: 100%;
     width: 100%;
     transform: translateY(100%);
-    transition-property: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .portfolio-list:hover .overlay-port {
     transform: translateY(0%);
