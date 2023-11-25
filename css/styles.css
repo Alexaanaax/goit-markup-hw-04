@@ -182,6 +182,7 @@ background-size: cover;
 text-align: center;
 margin: 0 auto;
 max-width: 1440px;
+background-repeat: no-repeat;
 }
 .main-heading {
     max-width: 496px;
